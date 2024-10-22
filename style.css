@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Updock&display=swap');
 .container{
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 body{
@@ -352,7 +352,7 @@ tr,th,td{
         padding: 20px;
     }
     .teamCard img{
-        width: 360px;
+        width: 340px;
         height: 100%;
         border-radius: 15px;
         object-fit: cover;
@@ -361,7 +361,7 @@ tr,th,td{
   footer{
     margin: 20px 0;
     padding: 20px;
-    background-color: rgba(128, 128, 128, 0.295);
+    background-color: rgba(87, 84, 84, 0.116);
     border-radius: 10px;
   }
     .footerContent{
@@ -607,6 +607,7 @@ tr,th,td{
     height: auto;
     display: grid;
     grid-template-columns: repeat(1, auto);
+    padding: 5px;
     
 }
 .teamCard img{
