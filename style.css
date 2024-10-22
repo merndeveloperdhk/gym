@@ -126,18 +126,176 @@ justify-content: space-between;
     background-color: orangered;
     width: 25px;
     height: 25px;
-    border-radius: 50%;
-    
+    border-radius: 50%  
 }
 .img_box_text{
-    color: white;
-   
-    
+    color: white;   
 }
 .t500{
     margin: 0 0;
+};
+/* Change your habit */
+.habit{
+   
+}
+.habit h1{
+font-size: 30px;
+font-weight: extra-bold;
+text-align: center;
+}
+.habit p{
+    text-align: center;
+}
+.habitCard{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.habitCard h3{
+    margin: 5px;
+}
+.habitCard p{
+    margin: 0;
+}
+.habitCard1{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    
+}
+.habitCard1 img{
+width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+/* run Extra */
+.runExtra{
+    margin-top: 30px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 15px;
+
+}
+.runLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.runLeftElement{
+    width: 60%;
+}
+.runLeft h3{
+    font-size: 45px;
+    margin: 5px;
+}
+.runImg{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.runImg img{
+    width: 50%;
+    height: 90%;
+    border-radius: 15px;
+}
+/* BMI Calculator */
+.bmiContainer{
+    border: 1px solid black;
+    height: 300px;
+    display: flex;
+    background-color: gray;
+    padding: 15px;
+    
+}
+.bmiTable{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.bmiTable h1, th{
+    color: white;
+}
+.bmiTable td{
+    color: rgb(36, 35, 35);
 }
 
+table{
+    border-collapse: collapse;
+}
+tr,th,td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 2px 4px;
+}
+.bmiCalculate{
+    width: 50%;
+    }
+    .bmiCalDes{
+        width: 70%;
+    }
+    .bmiCalDes h1{
+        color: white;
+    }
+    .formInput{
+        display: flex;
+        gap: 20px;
+    }
+    .formLeft{
+        width: 50%;
+    }
+    .formLeft input{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .formRight{
+        width: 50%;
+    }
+    .formRight input{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .formRight select{
+        width: 100%;
+        padding: 6px;
+    }
+    form input{
+        padding: 6px;
+        
+    }
+    .activityfactor{
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 8px;
+    }
+    /* Team Card */
+    .teamCard{
+        border: 1px solid black;
+        background-color: gray;
+        height: 600px;
+        border-radius: 15px;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: 290px 290px;
+        gap: 20px;
+        padding: 20px;
+    }
+    .teamCard img{
+        width: 360px;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+    }
 /* Responsive */
 @media screen and (max-width:576px) {
     .menu a{
@@ -203,5 +361,103 @@ justify-content: space-between;
     color: white;
     
 }
+/* change your habit */
+.habitCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* Run Extra */
+.runExtra{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    border-radius: 15px;
 
+}
+.runLeft{
+    width: 100%;
+    
+    
+}
+.runLeftElement{
+    width: 100%;
+}
+.runLeft h3{
+    width: 50%;
+    font-size: 35px;
+    margin: 5px;
+}
+.runImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.runImg img{
+    margin-top: 50px;
+    width: 100%;
+    height: 90%;
+    border-radius: 15px;
+}
+/* BMI Calculator */
+.bmiContainer{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    background-color: gray;
+    padding: 15px;
+    width: 100%;
+}
+.bmiTable{
+    width: 100%;
+    display: flex;
+   justify-content: flex-start;
+}
+
+.bmiCalculate{
+    width: 100%;
+    }
+    .bmiCalDes{
+        width: 70%;
+    }
+    .formLeft{
+        width: 100%;
+    }
+    .formLeft input{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .formRight{
+        width: 100%;
+    }
+    .formRight input{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .formRight select{
+        width: 100%;
+        padding: 6px;
+    }
+    form input{
+        padding: 6px;
+        
+    }
+ /* Team Card */
+ .teamCard{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    
+}
+.teamCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 }
