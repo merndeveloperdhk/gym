@@ -232,6 +232,7 @@ width: 80px;
 
 table{
     border-collapse: collapse;
+    
 }
 tr,th,td{
     border: 1px solid black;
@@ -295,6 +296,58 @@ tr,th,td{
         height: 100%;
         border-radius: 15px;
         object-fit: cover;
+    }
+    /* Footer */
+  footer{
+    margin: 20px 0;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10px;
+  }
+    .footerContent{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+    }
+    .footerC1{
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fFitness{
+        color: orangered;
+        font-size: 35px;
+    }
+    .footerC2{
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerC3{
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+    ul li{
+        
+        list-style: none;
+        line-height: 25px;
+    }
+    .fContent{
+        
+        text-align: left;
+    }
+   
+    .copyRight{
+        text-align: center;
     }
 /* Responsive */
 @media screen and (max-width:576px) {
@@ -418,6 +471,7 @@ tr,th,td{
     width: 100%;
     display: flex;
    justify-content: flex-start;
+   
 }
 
 .bmiCalculate{
@@ -460,4 +514,52 @@ tr,th,td{
     height: 100%;
     object-fit: cover;
 }
+  /* Footer */
+  footer{
+    margin: 20px 0;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10px;
+  }
+    .footerContent{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+    }
+    .footerC1{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerC2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .footerC3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+    ul li{
+        
+        list-style: none;
+        line-height: 25px;
+    }
+    .fContent{
+        
+        text-align: left;
+    }
+   
+    .copyRight{
+        text-align: center;
+    }
 }
