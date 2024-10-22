@@ -3,6 +3,10 @@
     width: 90%;
     margin: auto;
 }
+body{
+    background-color: black;
+    color: white;
+}
 .great-vibes-regular {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
@@ -211,12 +215,11 @@ width: 80px;
 }
 /* BMI Calculator */
 .bmiContainer{
-    border: 1px solid black;
     height: 300px;
     display: flex;
     background-color: gray;
     padding: 15px;
-    
+    border-radius: 15px;
 }
 .bmiTable{
     width: 50%;
@@ -279,9 +282,65 @@ tr,th,td{
         padding: 5px;
         margin-bottom: 8px;
     }
+    /* Hot Article */
+    .articleSection{
+        display: flex;
+        gap: 30px;
+        margin: 10px auto;
+        
+    }
+    .leftArticle{
+        width: 50%;
+        
+    }
+    .leftArticle1{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        margin: 10px 0;
+        background-color: gray;
+        padding: 10px;
+        border-radius: 10px;
+        
+    }
+    
+    .leftArticle1 img{
+        width: 200px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: transform 1s;
+       
+    }
+    .leftArticle1 img:hover{
+        transform: scale(0.95);
+        
+    }
+    .rightArticle{
+        width: 50%;
+    }
+    .rightArticle1{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        margin: 10px 0;
+        background-color: rgb(99, 50, 50);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .rightArticle1 img{
+        width: 200px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: transform 1s;
+    }
+    .rightArticle1 img:hover{
+        transform: scale(0.95);
+        
+    }
     /* Team Card */
     .teamCard{
-        border: 1px solid black;
         background-color: gray;
         height: 600px;
         border-radius: 15px;
