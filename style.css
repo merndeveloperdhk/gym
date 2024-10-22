@@ -14,7 +14,7 @@ body{
   }
   
 header{
-    background: linear-gradient(10.00deg, rgb(17, 17, 17),rgba(119, 119, 119) 100%);
+    background: linear-gradient(10.00deg, rgb(24, 23, 23),rgb(66, 65, 65) 100%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -184,7 +184,7 @@ width: 80px;
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.123);
     border-radius: 10px;
 
 }
@@ -209,15 +209,15 @@ width: 80px;
     align-items: center;
 }
 .runImg img{
-    width: 50%;
-    height: 90%;
+    width: 60%;
+    height: 100%;
     border-radius: 15px;
 }
 /* BMI Calculator */
 .bmiContainer{
     height: 300px;
     display: flex;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.151);
     padding: 15px;
     border-radius: 10px;
 }
@@ -230,11 +230,12 @@ width: 80px;
     color: white;
 }
 .bmiTable td{
-    color: rgb(36, 35, 35);
+    color: rgb(107, 105, 105);
 }
 
 table{
     border-collapse: collapse;
+    
     
 }
 tr,th,td{
@@ -341,7 +342,7 @@ tr,th,td{
     }
     /* Team Card */
     .teamCard{
-        background-color: gray;
+        background-color: rgba(128, 128, 128, 0.295);
         height: 600px;
         border-radius: 15px;
         display: grid;
@@ -360,7 +361,7 @@ tr,th,td{
   footer{
     margin: 20px 0;
     padding: 20px;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.295);
     border-radius: 10px;
   }
     .footerContent{
@@ -415,6 +416,9 @@ tr,th,td{
     }
     .menuIcon{
         display: block;
+    }
+    .btnFull{
+        width: 100%;
     }
     .banner{
         display: flex;
@@ -487,14 +491,10 @@ tr,th,td{
     height: auto;
     display: flex;
     flex-direction: column;
-    background-color: gray;
     border-radius: 15px;
-
 }
 .runLeft{
-    width: 100%;
-    
-    
+    width: 100%;    
 }
 .runLeftElement{
     width: 100%;
@@ -522,7 +522,6 @@ tr,th,td{
     display: flex;
     height: auto;
     flex-direction: column;
-    background-color: gray;
     padding: 15px;
     width: 100%;
 }
@@ -561,42 +560,39 @@ tr,th,td{
         padding: 6px;
         
     }
-     /* Hot Article */
-     .articleSection{
+      /* Hot Article */
+    .articleSection{
         display: flex;
         flex-direction: column;
-        gap: 0px;
-        margin: 10px auto;
+        gap: 10px;        
     }
-    
     .leftArticle{
-        width: 100%;
-        
+        width: 100%; 
     }
     .leftArticle1{
         width: 100%;
         display: flex;
-        gap: 10px;
-        margin: 10px 0;
-        background-color: gray;
-        padding: 10px;
-        border-radius: 10px;
-        
+        flex-direction: column;
+        gap: 10px;        
     }
+    
+    .leftArticle1 img{
+        width: 100%;
+        height: 160px;       
+    }
+   
     .rightArticle{
         width: 100%;
     }
     .rightArticle1{
         width: 100%;
         display: flex;
+        flex-direction: column;
         gap: 10px;
-        margin: 10px 0;
-        background-color: rgb(99, 50, 50);
-        padding: 10px;
-        border-radius: 10px;
+        
     }
     .rightArticle1 img{
-        width: 200px;
+        width: 100%;
         height: 160px;
         object-fit: cover;
         border-radius: 10px;
@@ -622,7 +618,6 @@ tr,th,td{
   footer{
     margin: 20px 0;
     padding: 20px;
-    background-color: gray;
     border-radius: 10px;
   }
     .footerContent{
